@@ -11,3 +11,5 @@ Edit menu
 Font color dialog Box
 ![](https://github.com/adi3120/Notepad-Application-Java-Swing/blob/master/Screenshot_2021-09-08-00-07-01-578_com.gallery.player.jpg)
 
+File save confirmation prompt
+![](https://github.com/adi3120/Notepad-Application-Java-Swing/blob/master/Screenshot_2021-09-08-00-07-22-155_com.gallery.player.jpg)
