@@ -5,7 +5,6 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -92,6 +91,7 @@ public class NotepadDemo1 {
 				}
 			});
 		}
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 
 	}
@@ -117,12 +117,11 @@ public class NotepadDemo1 {
 		filename = JOptionPane.showInputDialog(frame, "Enter File Name");
 
 		frame.setTitle(filename + ".txt");
-		File file = new File("C:\\Users\\Dell\\eclipse-workspace\\SwingPrac\\src\\" + filename + ".txt");
+		File file = new File("D:\\Swing\\" + filename + ".txt");
 		try {
 			file.createNewFile();
 			FileWriter fileWriter = new FileWriter(file);
 			fileWriter.write(area.getText());
-
 			fileWriter.flush();
 			fileWriter.close();
 
